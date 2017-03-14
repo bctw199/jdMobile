@@ -1,0 +1,44 @@
+*,
+::before,
+::after{
+    padding:0;
+    margin:0;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-box-sizing: border-box;
+}
+body{
+    color:#000;
+    font-size:14px;
+    font-family: 'Microsoft Yahei',sans-serif;
+    background-color: #f5f5f5;
+}
+i{
+    font-style: normal;
+}
+.clearfix::before,/*清除浮动*/
+.clearfix::after{
+    content:'';
+    display:block;
+    visibility:hidden;
+    clear: both;
+    height:0;
+    line-height:0;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    color:#000;
+}
+input,textarea{
+    resize: none;
+    -webkit-appearance: none;/*清除浏览器默认样式*/
+    outline: none;/*清除输入框被选中时显示的边框*/
+    border:none;
+}
+[class^='icon-']{
+    background:url(../img/sprites.png) no-repeat;
+    background-size:200px,200px;
+
+}

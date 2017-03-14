@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no"/><!--设置视口viewport-->
+    <title>京东首页</title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <script src="lib/jquery-3.1.1.js"></script>
+</head>
+<body>
+    <div id="layout">
+        <header class=".header" id="header">
+            <div class="header-box">
+                <div class="header-content">
+                    <a class="icon-logo"></a>
+                    <form action="" class="search">
+                        <span class="icon-search"></span>
+                        <input type="search" placeholder="荣耀8"/><!--移动端搜索框要用search-->
+                    </form>
+                    <a href="" class="login">登录</a>
+                </div>
+            </div>
+        </header>
+        <div class="jd-banner" id="banner">
+            <ul id="imgBox"><!--要全部的li中的img都有图片才能撑开jd-banner的高度-->
+                <li><img src="img/l8.jpg" alt=""/></li>
+                <li><img src="img/l1.jpg" alt=""/></li>
+                <li><img src="img/l2.jpg" alt=""/></li>
+                <li><img src="img/l3.jpg" alt=""/></li>
+                <li><img src="img/l4.jpg" alt=""/></li>
+                <li><img src="img/l5.jpg" alt=""/></li>
+                <li><img src="img/l6.jpg" alt=""/></li>
+                <li><img src="img/l7.jpg" alt=""/></li>
+                <li><img src="img/l8.jpg" alt=""/></li>
+                <li><img src="img/l1.jpg" alt=""/></li>
+            </ul>
+            <ul><!--动态添加-->
+            </ul>
+        </div><!--/banner-->
+        <div id="nav">
+            <ul>
+                <li>
+                    <a href="#"><img src="img/nav0.png" alt=""/><p>分类查询</p></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/nav1.png" alt=""/><p>物流查询</p></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/nav2.png" alt=""/><p>购物车</p></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/nav3.png" alt=""/><p>我的京东</p></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/nav4.png" alt=""/><p>充值中心</p></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/nav5.png" alt=""/><p>领券</p></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/nav6.png" alt=""/><p>京东超市</p></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/nav7.png" alt=""/><p>我的关注</p></a>
+                </li>
+            </ul>
+        </div><!--/nav-->
+        <main id="jd-product">
+            <section id="seckill-floor">
+                <div class="top-item">
+                    <span><img src="img/seckill-icon.png" alt=""/></span>
+                    <h4>掌上秒杀</h4>
+                    <div class="sk-time">
+                        <span class="num">0</span>
+                        <span class="num">0</span>
+                        <span class="str">:</span>
+                        <span class="num">0</span>
+                        <span class="num">0</span>
+                        <span class="str">:</span>
+                        <span class="num">0</span>
+                        <span class="num">0</span>
+                    </div>
+                    <a href="#">更多></a>
+                </div><!--/top-item-->
+                <div class="seckill clearfix">
+                    <ul class="seckill-list">
+                        <li>
+                            <div class="seckill-item-img">
+                                <a href="#"><img src="img/detail01.jpg" alt=""/></a>
+                            </div>
+                            <div class="seckill-item-price">
+                                <p class="seckill-new-price">￥2900.00</p>
+                                <p class="seckill-original-price">￥5000.00</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="seckill-item-img">
+                                <a href="#"><img src="img/detail01.jpg" alt=""/></a>
+                            </div>
+                            <div class="seckill-item-price">
+                                <p class="seckill-new-price">￥2900.00</p>
+                                <p class="seckill-original-price">￥5000.00</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="seckill-item-img">
+                                <a href="#"><img src="img/detail01.jpg" alt=""/></a>
+                            </div>
+                            <div class="seckill-item-price">
+                                <p class="seckill-new-price">￥2900.00</p>
+                                <p class="seckill-original-price">￥5000.00</p>
+                            </div>
+                        </li>
+                    </ul><!--/seckill-list-->
+                </div>
+            </section><!--/seckill-->
+            <section id="jd_product_box">
+                <div class="top-item">
+                    <span>超值购</span>
+                </div>
+                <div class="product-item clearfix">
+                    <div class="product-item-left">
+                        <a href="#"><img src="img/cp1.jpg" alt="手机专享"/></a>
+                    </div>
+                    <div class="product-item-right">
+                        <div><a href="#"><img src="img/cp2.jpg" alt=""/></a></div>
+                        <div><a href="#"><img src="img/cp2.jpg" alt=""/></a></div>
+                    </div>
+                </div>
+            </section>
+            <section id="sales-promotion">
+                <div class="top-item">
+                    <span>热门活动</span>
+                </div>
+                <div class="product-item clearfix">
+                    <div class="product-item-left">
+                        <div><a href="#"><img src="img/cp5.jpg" alt=""/></a></div>
+                        <div><a href="#"><img src="img/cp6.jpg" alt=""/></a></div>
+                    </div>
+                    <div class="product-item-right">
+                        <a href="#"><img src="img/cp4.jpg" alt="手机专享"/></a>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+    </div><!--/layout-->
+    <script src="js/index.js"></script>
+</body>
+</html>
